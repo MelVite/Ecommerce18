@@ -5,6 +5,11 @@
 :root {
     color-scheme: dark light;
 }
+
 body {
+    @apply bg-black dark:bg-black;
+}
+
+.dark body {
     @apply bg-black;
 }
